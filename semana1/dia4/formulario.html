@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
     
 <main>
-    <form>
+    <form action="" oninput="x.value = parseInt(a.value) + parseInt(b.value)">
 
 
 
@@ -37,9 +37,9 @@
                 <div> <h4>Deportes Favoritos</h4> </div>
                 <label for="Tenis">Tenis</label>
                 <input type="checkbox" name="Tenis" id="Tenis" value="Tenis">
-                <label for="Tenis">Baloncesto</label>
+                <label for="Baloncesto">Baloncesto</label>
                 <input type="checkbox" name="Baloncesto" id="Baloncesto" value="Baloncesto">
-                <label for="Tenis">Futbol</label>
+                <label for="Futbol">Futbol</label>
                 <input type="checkbox" name="Futbol" id="Futbol" value="Futbol">
             </div>
 
@@ -78,10 +78,51 @@
                 <br>
                 <input type="checkbox" name="Soya" id="Soya">
                 <label for="Soya">Soya</label>
-                
             </div>
         </div>
 
+        <br> <hr>
+
+        <div>
+                <label for="coches">Marcas de coches</label>
+                <select name="coches" id="coches">
+                <option value="volvo">Volvo</option>
+                <option value="subaru">Subaru</option>
+                <option value="fiat">Fiat</option>
+                <option value="lamborgini">Lamborgini</option>
+                </select>
+        </div>
+
+        <div>
+            <label for="lenguajes">Lenguajes de programacion</label>
+            <select name="lenguajes" id="lenguajes" size="5">
+                <option value="javascript">JS</option>
+                <option value="typescript">TypeScript</option>
+                <option value="c++">C++</option>
+                <option value="java">Java</option>
+                <option value="c#">C#</option>
+                <option value="kotlin">Kotlin</option>
+                <option value="swift">Swift</option>
+            </select>
+        </div>
+
+        <div>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10">Desarrollo Fronend en CodiGO</textarea>
+            <button type="button" onclick="alert('dasds')">Hazme click dude!</button>
+        </div>
+
+        <div>
+            0%
+            <input type="range" name="a" id="a" value="70">
+            100%
+        </div>
+
+        <div>
+            <input type="number" name="b" id="b" value="50">
+            =
+
+            <output name="x" for="a b"></output>
+        </div>
     </form>
 
 </main>
