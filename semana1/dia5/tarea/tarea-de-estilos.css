@@ -1,7 +1,49 @@
-body {background-color: black;}
-#yo {font-size: 40px;font-weight: bold; text-align: center; color: blanchedalmond;}
-div {display:block; margin:auto; text-align: center;}
-.a {font-size: 30px; background: grey;}
-.b {font-size: 20px; background-color: whitesmoke;}
-ul {background-color: whitesmoke;}
-footer {background: rgb(240, 121, 121);text-align: center;}
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtFmX5MyrWlI0XpeIXttYNvCeVkir-hw9pSw&usqp=CAU);
+}
+#yo {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: blanchedalmond;
+}
+img {
+  border-radius: 5%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+img:hover {
+  text-align: start;
+  height: 400px;
+}
+.a {
+  font-size: 30px;
+  background: rgba(6, 35, 82, 0.705);
+  color: cornsilk;
+}
+.b {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgba(102, 112, 114, 0.692);
+  color: rgba(6, 35, 82, 0.705);
+}
+.c {
+  background-color: rgba(41, 115, 149, 0.616);
+  caret-color: rgb(0, 38, 255);
+  color: white;
+}
+form > label + input {
+  font-size: 50px;
+  background-color: teal;
+}
+ul {
+  font-weight: bold;
+  background-color: rgba(102, 112, 114, 0.692);
+  color: rgba(6, 35, 82, 0.705);
+}
+footer {
+  color: rgb(40, 37, 194);
+  background: rgb(230, 98, 98);
+  text-align: center;
+}
