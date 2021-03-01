@@ -12,6 +12,8 @@ header {
   border-radius: 100%;padding: 20px;
 }
 
+.foto img:hover{height: 250px;}
+
 nav {
   font-size: 20px;
   color: cornsilk;
@@ -44,6 +46,8 @@ nav {
 }
 
 .imagen img {width:768px ;height:400px; text-align: center; border-radius: 20px; margin: 20px;}
+
+.imagen img:hover {height: 445px;width: 790px;}
 
 .a {
   display: inline-block;
