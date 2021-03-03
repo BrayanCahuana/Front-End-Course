@@ -1,0 +1,27 @@
+body {
+  background-image: url(https://generacionxbox.com/wp-content/uploads/2018/01/TheLastNight_03_cropped.01.jpg);
+  
+}
+#primero {
+  background-color: rgb(124, 45, 45);
+  max-width: 50%;
+}
+#segundo {
+  background-color: rgb(47, 151, 55);
+  opacity: 0.5;
+}
+#tercero {
+  background-color: rgb(41, 58, 133);
+  opacity: 0.2;
+}
+#cuarto {
+  background-color: rgb(38, 85, 112);
+  opacity: 0.4;
+}
+#contenedor {
+  height: 400px;
+  width: 350px;
+  background-image: url("https://store-images.s-microsoft.com/image/apps.30252.13581223868996394.55d0cdc7-62a9-49a1-baad-f12edad03432.c8c1dee1-8fa1-413e-989b-2d27e219fa4b?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
