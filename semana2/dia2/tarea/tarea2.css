@@ -1,0 +1,7 @@
+.a {background:rgb(233, 231, 231) ;border-style: inset;}
+.b {background:rgb(233, 231, 231) ;border-style: double;}
+.c {background:rgb(233, 231, 231) ; border-style:solid;}
+.d {background:rgb(233, 231, 231) ;border-top-style: dotted ;border-left-style: double;
+    border-bottom-style: dotted ;border-right-style: double;}
+h1 {background:rgb(233, 231, 231) ;border-top-style: double;border-bottom-style:dashed;
+    border-left-style: dotted;border-right-style:dashed;}

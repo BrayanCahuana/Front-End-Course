@@ -1,0 +1,22 @@
+.a {
+  height: 250px;
+  width: 695px;
+  border-radius: 68%;
+  background-image: linear-gradient(
+    to top left,
+    red,
+    rgb(20, 20, 112),
+    green,
+    rgb(219, 67, 92),
+    rgb(233, 136, 57),
+    rgb(20, 110, 133),
+    rgb(75, 72, 72)
+  );
+}
+p {
+  text-shadow: 2px 2px 0 #000;
+  text-align: center;
+  color: ivory;
+  font-size: 50px;
+  padding: 75px;
+}

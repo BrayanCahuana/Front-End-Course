@@ -1,0 +1,51 @@
+body {background-color: rgb(0, 179, 202);animation:fondo 5s infinite; }
+.a img {display: inline-block;
+  margin: 15% 15%;
+  margin-left: 35%;
+  margin-right: 35%;
+text-align: center;
+  animation: paisana 5s infinite;
+}
+
+@keyframes paisana {
+  0% {
+    filter: invert(0%);
+    border-radius: 0%;
+    
+  }
+
+  25% {
+    filter: invert(25%);
+    border-radius: 25%;
+    transform: translate(50%);
+
+  }
+  50% {
+    filter: invert(50%);
+    border-radius: 50%;
+    transform: translate(50%,50%);
+  
+  }
+ 
+  75% {
+    filter: invert(25%);
+    border-radius: 25%;
+    transform: translate(0% ,50%);
+    }
+   
+  100% {
+    filter: invert(0%);
+    border-radius: 0%;
+    transform: translate(0%,0%);
+}
+}
+
+
+@keyframes fondo {
+    0%{background-color: rgb(245, 125, 78);}
+    25%{background-color: rgb(218, 122, 84);}
+    50%{background-color: rgb(126, 126, 126);}
+    75%{background-color: rgb(218, 122, 84);}
+    100%{background-color: rgb(245, 125, 78);}
+    
+}

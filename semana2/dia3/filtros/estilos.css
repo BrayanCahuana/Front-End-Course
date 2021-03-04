@@ -1,0 +1,4 @@
+* {text-align: center;}body{background-image: linear-gradient(grey, rgb(68, 142, 212));}
+.a {width: 30%;margin-top: 50px;margin-bottom:50px ;}
+.b {width: 30%;filter: grayscale(70%);margin-top: 50px;margin-bottom:50px ;margin-left: 10px;}
+.c {width: 30%;filter: blur(5px);margin-top: 50px;margin-bottom:50px ;margin-left: 10px;}

@@ -1,0 +1,32 @@
+* {padding: 0;margin: 0; display: inline-block ;}
+#gradiente-desde-arriba-hacia-abajo {
+  height: 250px;
+  width: 250px;
+  background-image: linear-gradient(grey ,rgb(195, 140, 140));
+}
+
+#gradiente-desde-derecha-hacia-izquierda {
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to right ,rgb(216, 45, 45) ,rgb(34, 100, 100));
+}
+
+#gradiente-desde-diagonal-hacia-esquina-derecha {
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to bottom right ,rgb(20, 127, 228) ,rgb(100, 34, 34));
+}
+#gradiente-con-angulos {
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(60deg ,rgb(195, 33, 33) ,rgb(100, 34, 34));
+}
+#gradiente-multiples-colores {
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(grey ,green ,rgb(100, 34, 34));}
+#gradiente-transparencia {
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to right ,rgba(255, 255, 255, 0) ,rgb(100, 34, 34));
+}
