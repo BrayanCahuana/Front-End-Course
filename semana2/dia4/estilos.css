@@ -1,0 +1,12 @@
+* {color: cornsilk;}
+body {background-color: rgba(0, 0, 0, 0.849);}
+p {font-size: 20px;}
+.b {background-color: black;
+font-weight: bold;
+width: 600px;
+border: 10px solid rgb(87, 86, 86);
+margin: 20px;
+padding: 50px;
+color: cornsilk;
+}
+.a {background-color: rgba(41, 41, 41, 0.849);}
