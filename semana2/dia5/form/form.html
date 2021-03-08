@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <div>
+      <p>Este es mi primer formulario con los estilos de css.</p>
+
+      <div class="form">
+        <div class="name">
+          <form action="name"></form>
+          <label for="name">Nombre:</label>
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <div class="email">
+          <form action="email"></form>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div class="genero">
+          <form action="genero"></form>
+          <label for="genero">Genero:</label>
+
+          <input type="radio" name="boton" value="1" />Masculino <br />
+          <input type="radio" name="boton" value="2" />Femenino <br />
+        </div>
+
+        <div class="estudio">
+          <form action="estudio"></form>
+          <label for="estudio">Estudio:</label>
+          <select name="menu">
+            <option>Escolar</option>
+            <option>Universitario</option>
+            <option>Post-Grado</option>
+          </select>
+        </div>
+
+        <div class="estado">
+          <form action="estado"></form>
+          <label for="estado">Estado:</label>
+          <select name="menu">
+            <option>Soltero</option>
+            <option>Casado</option>
+            <option>Divorciado</option>
+          </select>
+        </div>
+
+        <div class="edad">
+          <form action="estado"></form>
+          <label for="name">Edad:</label>
+          <input type="date" name="estado" id="estado" />
+        </div>
+
+        <div class="gusto">
+          <form action="gusto">Gustos:</form>
+          <label for="gusto"></label>
+          <input type="checkbox" name="gusto" id="gusto" />Front-End<br>
+          <label for="gusto"></label>
+          <input type="checkbox" name="gusto" id="gusto" />Back-End
+        </div>
+
+        <div class="enviar">
+            <form action="enviar"></form>
+            <label for="enviar"></label>
+            <div class="boton">
+            <input type="submit" name="enviar" id="enviar" /></div>
+          </div>
+        
+      </div>
+    </div>
+  </body>
+</html>

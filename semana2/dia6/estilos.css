@@ -1,0 +1,160 @@
+html {scroll-behavior: smooth;}
+body {
+  background-image: url(https://somnomed.com/wp-content/uploads/2017/09/night-sky.jpg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  display: block;
+}
+
+nav li {
+  font-size: 20px;
+  display: block;
+}
+
+nav li a {
+  color: white;
+  text-align: center;
+  padding: 24px 30px;
+  text-decoration: none;
+  float: right;
+}
+
+nav li a:hover {
+  background-color: rgb(58, 58, 58);
+}
+.d {
+  margin-right: 0%;
+
+}
+li img {
+  width: 4%;display:block;filter: invert(100%);
+}
+div {
+  text-align: center;
+  margin-top: 0%;
+}
+div img {
+  border-radius: 100%;
+  width: 250px;
+}
+div p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  margin-bottom: 3%;
+}
+div #datos {
+  margin-top: 5%;
+}
+#datos a {
+  background: rgba(32, 32, 32, 0.568);
+  color: white;
+  margin: 70px;
+  padding: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+footer {
+  color: white;
+  margin-top: 0%;
+  text-align: center;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.822);
+  padding: 40px;
+  margin-bottom: 0;
+}
+#referencia {
+  color: white;
+  background: rgba(26, 26, 26, 0.815);
+  padding: 7%;
+  margin-top: 0%; 
+  margin-bottom: 0;
+  animation: referencia 5s forwards;
+}
+@keyframes referencia {
+  0% {
+    transform : translateY(-7%);
+  }
+  100% {transform: translateY(0%);}
+}
+#referencia p {margin: 0;padding: 0;}
+
+#referencia ul {
+  color: white;
+  display: inline-block;
+  margin: 0;
+}
+#referencia li {
+  margin: 2.5%;
+  background: rgba(56, 56, 56, 0.829);
+  display: inline-flexbox;
+  padding: 3%;
+  font-size: 20px;
+  list-style-type: none;
+  width: 25%;
+display: inline-block;
+text-align: justify;
+}
+#referencia p {
+  margin-bottom: 0;
+}
+#portafolio {
+  background: rgba(26, 26, 26, 0.815);
+  padding: 3%;
+  margin: 0;
+  color: white;
+}
+
+#portafolio ul li h2 {height: 20px;}
+#portafolio ul li {
+  display: flex;
+  background: rgba(56, 56, 56, 0.829);
+  padding: 3%;
+  margin: 2%;
+}
+#portafolio ul li p {margin: 5%;width: 70%;text-align: justify;display: flex;}
+#html {
+  width: 215px;
+  border-radius: 0;
+  margin-left: 3%;
+  display: inline-block;
+}
+#css {
+  width: 180px;
+  border-radius: 0;
+  margin-left: 4%;
+}
+hr {
+  margin: 0;
+  width: 85%;
+  margin-left: 6%;
+}
+#nombre {
+  background: rgba(26, 26, 26, 0.815);
+  padding: 8%;
+  padding-left: 15%;
+  margin: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#nombre img {
+  border-radius: 2px;
+  float: left;
+  width: 290px;
+}
+#nombre .nombre {
+margin-bottom: 0;
+}
+#nombre .lorem {
+  display: inline-block;
+  width: 50%;
+  text-align: justify;
+}
+div style {margin-bottom: 0px;padding-bottom: 0px;margin-top: 0px;padding-top: 0px;vertical-align: top;}
