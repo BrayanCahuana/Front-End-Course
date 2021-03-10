@@ -1,0 +1,29 @@
+body {
+  background-color: teal;
+}
+
+
+/*pantallas EXTRA PEQUEÑAS(celulares)ancho menor a 600px*/
+@media only screen and (max-width: 600px) {
+    body {background-color: tomato;}
+}
+
+/*pantallas PEQUEÑAS(tablets en vertical, y celulares)ancho mayor a 600px*/
+@media only screen and (min-width:600px){
+    body {background-color: thistle;}
+}
+
+/*pantallas de tamaño MEDIO(tablets en horizontal)ancho mayor o igual a 768px*/
+@media (min-width:768px){
+    body {background-color: green;}
+}
+
+/*pantallas GRANDES(laptops y computadoras)ancho mayor 992px*/
+@media only screen and (min-width:992px){
+    body {background-color: blueviolet;}
+}
+
+/*pantallas MUY GRANDES(computadoras 2k y televisores)ancho mayor a 1200*/
+@media only screen and (min-width:1200px){
+    body {background-color: brown;}
+}
