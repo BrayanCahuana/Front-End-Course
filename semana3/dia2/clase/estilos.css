@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Roboto+Condensed:wght@300&display=swap');
+body {
+  background-color: teal;
+}
+
+/*pantallas EXTRA PEQUEÑAS(celulares)ancho menor a 600px*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: tomato;
+    text-align: center;
+  }
+  img {
+    width: 300px;
+    border-radius: 12px;
+  }
+  p {font-family: 'Roboto Condensed', sans-serif;}
+}
+
+/*pantallas PEQUEÑAS(tablets en vertical, y celulares)ancho mayor a 600px*/
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: thistle;
+  }
+  img {
+    width: 400px;
+    border-radius: 12px;
+  }
+  p {font-family: 'Anonymous Pro', monospace;}
+}
+
+/*pantallas de tamaño MEDIO(tablets en horizontal)ancho mayor o igual a 768px*/
+@media (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+  img {
+    width: 500px;
+    border-radius: 10%px;
+  }
+  p {font-family: 'Roboto Condensed', sans-serif;}
+}
+
+/*pantallas GRANDES(laptops y computadoras)ancho mayor 992px*/
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: blueviolet;
+  }
+  img {
+    width: 600px;
+    border-radius: 30%;}
+    p {font-family: 'Anonymous Pro', monospace;
+  }
+}
+
+/*pantallas MUY GRANDES(computadoras 2k y televisores)ancho mayor a 1200*/
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: brown;
+  }
+  img {
+    width: 700px;
+    border-radius: 50%px;
+  }
+  p {font-family: 'Roboto Condensed', sans-serif;}
+}

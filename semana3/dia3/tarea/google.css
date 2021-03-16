@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: block;
+  text-align: center;
+}
+header {
+  background-color: #ffffff;
+  display: block;
+}
+img {
+  width: 40px;
+  vertical-align: middle;
+}
+li {
+  display: inline;
+  margin: 7px;
+  font-size: 16px;
+}
+#gmail {
+  margin-left: 86%;
+}
+main #google {
+  width: 26%;
+  height: 26%;
+}
+.imagen {
+  text-align: center;
+  padding-top: 9%;
+}
+input {
+  width: 600px;
+  height: 50px;
+  border-radius: 50px;
+  border: rgb(156, 156, 156) 1px solid;
+  padding-inline: 15px;
+}
+#a {
+  height: 40px;
+  width: 150px;
+  margin-top: 30px;
+  margin-inline: 10px;
+  margin-bottom: 20px;
+  border: none;
+}
+footer {
+  background-color: rgb(241, 241, 241);
+  display: block;
+  padding: 1%;
+  text-align: left;
+  color: #707070be;
+}
+.quechua {
+  margin-bottom: 15%;
+}
+#inline {text-align: left;display: inline;}
+hr {filter: opacity(50%);}

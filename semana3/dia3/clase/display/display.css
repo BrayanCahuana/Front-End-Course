@@ -1,0 +1,23 @@
+#vertical {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(56, 52, 117);
+}
+#horizontal {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(68, 45, 68);
+}
+#horizontal-header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(49, 94, 95);
+    justify-content: space-between;
+  }
+.elemento {
+  background: rgb(201, 180, 176);
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  font-size: 30px;
+}
